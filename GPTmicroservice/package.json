@@ -1,0 +1,27 @@
+{
+  "name": "gptmicroservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gpt.js",
+  "scripts": {
+    "prod": "node gpt.js",
+    "dev": "npx nodemon gpt.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-ws": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "nest": "^0.1.6",
+    "nodemon": "^2.0.16",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "pactum": "^3.1.9"
+  }
+}

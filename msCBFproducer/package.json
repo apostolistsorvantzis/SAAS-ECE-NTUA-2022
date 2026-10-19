@@ -1,0 +1,19 @@
+{
+  "name": "mscbfproducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cbfp.js",
+  "scripts": {
+    "prod": "node cbfp.js",
+    "dev": "npx nodemon cbfp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.0.2",
+    "nodemon": "^2.0.16",
+    "sftpmonitor": "^1.0.2",
+    "ssh2": "^1.11.0",
+    "ssh2-sftp-client": "^9.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node saasc.js"
+  },
+  "bin": {
+    "saasc": "saasc.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.3.0",
+    "dotenv": "^16.0.1",
+    "ps-node": "^0.1.6",
+    "ssh2": "^1.11.0",
+    "ssh2-sftp-client": "^9.0.1",
+    "terminate": "^2.5.0"
+  }
+}

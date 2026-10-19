@@ -1,0 +1,11 @@
+{
+  "name": "msftp",
+  "version": "1.0.0",
+  "description": "This is a simple script that will generate a docker image that will serve an FTP server.",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

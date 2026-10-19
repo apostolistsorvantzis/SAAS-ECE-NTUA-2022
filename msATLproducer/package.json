@@ -1,0 +1,19 @@
+{
+  "name": "msatlproducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "atlp.js",
+  "scripts": {
+    "prod": "node atlp.js",
+    "dev": "npx nodemon atlp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.0.2",
+    "nodemon": "^2.0.16",
+    "sftpmonitor": "^1.0.1",
+    "ssh2": "^1.10.0",
+    "ssh2-sftp-client": "^8.1.0"
+  }
+}

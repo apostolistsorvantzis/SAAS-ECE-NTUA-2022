@@ -1,0 +1,11 @@
+{
+  "name": "mskafka",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

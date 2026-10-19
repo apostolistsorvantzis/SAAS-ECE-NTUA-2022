@@ -1,0 +1,17 @@
+{
+  "name": "kafka-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kafkac.js",
+  "scripts": {
+    "prod": "node kafkac.js",
+    "dev": "npx nodemon kafkac.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "kafkajs": "^2.0.2",
+    "nodemon": "^2.0.16"
+  }
+}
